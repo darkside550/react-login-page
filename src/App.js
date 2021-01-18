@@ -19,19 +19,21 @@ function App() {
   const Login = details => {
     console.log(details);
 
-    if(details.email == adminUser.email && details.password == adminUser.password){
+    if(details.email === adminUser.email && details.password === adminUser.password){
       console.log("Loged in")
       setUser({
         name: details.name,
         email: details.email
       });
     } else{
-      console('details dont match');
+      console.log('details dont match');
+      setError('details dont match');
     }
 
   }
 
   const logOut= () => {
+    setUser({name: '', email:''});
     console.log("Log Out");
   }
 
@@ -41,10 +43,10 @@ function App() {
       
       <div className="App">
 
-      {(user.email != "")?(
+      {(user.email !== "")?(
         <div className="welcome">
         <h2> Welcome, <span>{user.name} </span></h2>
-        <button> Logout </button>
+        <button onClick={logOut}> Logout </button>
         </div>
       ):(
         <LoginForm Login={Login} error={error} />

@@ -23,11 +23,17 @@ function LoginForm({Login,error}) {
       <h1 style={{paddingTop:'20px',textAlign:'center'}}>
         Sign in to journey
       </h1>
+
+        
+
       <FacebookLoginButton />
       <TwitterLoginButton />
       <div style={{textAlign:'center'}} >
         or use email for log in
       </div>
+
+      {(error !== "") ? (<div className='error'>{error}</div>) : ""}
+
       <FormGroup >
         <Label>&nbsp;&nbsp;Name</Label>
         <Input type="text" placeholder='name' onChange={e => setDetails({...details,name:e.target.value})} value={details.name}/>
