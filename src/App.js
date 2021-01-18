@@ -23,7 +23,7 @@ function App() {
         or use email for log in
       </div>
       <FormGroup >
-        <label>&nbsp;&nbsp;&nbsp;Email</label>
+        <label>&nbsp;&nbsp;Email</label>
         <input type="email" placeholder='email'/>
       </FormGroup>
       <FormGroup >
