@@ -19,7 +19,7 @@ function App() {
       </h1>
       <FacebookLoginButton />
       <TwitterLoginButton />
-      <div className="text-center ">
+      <div style={{textAlign:'center'}}>
         or use email for log in
       </div>
       <FormGroup >
