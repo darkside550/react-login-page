@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
 
 import {Button, Form, FormGroup, Label, Input} from 'reactstrap';
@@ -12,7 +12,7 @@ function App() {
     <>
     <body>
     <div style={{height:'100%',width:'100%',display:'inline-block'}} >
-    <form className='splitdiv' id='leftdiv'>
+    <Form className='splitdiv' id='leftdiv'>
       <div  id='leftdivcard'>
       <h1 style={{paddingTop:'20px',textAlign:'center'}}>
         Sign in to journey
@@ -23,19 +23,19 @@ function App() {
         or use email for log in
       </div>
       <FormGroup >
-        <label>&nbsp;&nbsp;Email</label>
-        <input type="email" placeholder='email'/>
+        <Label>&nbsp;&nbsp;Email</Label>
+        <Input type="email" placeholder='email'/>
       </FormGroup>
       <FormGroup >
-        <label>Password</label>
-        <input type="password" placeholder='password'/>
+        <Label>Password</Label>
+        <Input type="password" placeholder='password'/>
       </FormGroup>
       <div style={{textAlign:'center'}}>
-      <button className='ripple2' id='leftbutton'>Sign in
-      </button>
+      <Button className='ripple2' id='leftbutton'>Sign in
+      </Button>
       </div>
       </div>
-    </form>
+    </Form>
     
 
     <div className='splitdiv' id='rightdiv'>
