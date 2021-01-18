@@ -7,7 +7,7 @@ The project is live [click here](https://react-split-login-page.netlify.app) .
 
 # Screenshot of the page
 
-![Screenshot from 2021-01-18 12-36-28](https://user-images.githubusercontent.com/44047478/104883484-d7741500-598a-11eb-9621-938e56c63434.png)
+![Screenshot from 2021-01-18 15-43-52](https://user-images.githubusercontent.com/44047478/104901886-fc28b680-59a3-11eb-9972-5e113fa1845c.png)
 
 ![Screenshot from 2021-01-18 15-15-53](https://user-images.githubusercontent.com/44047478/104899326-b8807d80-59a0-11eb-85ae-0bcfc09f61da.png)
 
