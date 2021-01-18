@@ -1,3 +1,11 @@
+# About
+
+This is a simple split screen login page created in react, react-social-login-button, reactstrap. I have given the split screen effect using pure CSS.
+
+# Screenshot of the page
+
+![Screenshot from 2021-01-18 12-36-28](https://user-images.githubusercontent.com/44047478/104883484-d7741500-598a-11eb-9621-938e56c63434.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
